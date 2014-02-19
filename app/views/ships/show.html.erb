@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ename:</strong>
+  <%= @ship.ename %>
+</p>
+
+<p>
+  <strong>Cname:</strong>
+  <%= @ship.cname %>
+</p>
+
+<p>
+  <strong>Flag:</strong>
+  <%= @ship.flag %>
+</p>
+
+<p>
+  <strong>Callsign:</strong>
+  <%= @ship.callsign %>
+</p>
+
+<%= link_to 'Edit', edit_ship_path(@ship) %> |
+<%= link_to 'Back', ships_path %>
