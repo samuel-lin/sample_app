@@ -2,6 +2,7 @@ source 'http://ruby.taobao.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.2'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'pg', '0.15.1'
 
 group :development, :test do
