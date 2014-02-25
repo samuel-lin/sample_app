@@ -16,15 +16,6 @@ ActiveRecord::Schema.define(version: 20140221073149) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "ships", force: true do |t|
-    t.string   "ename"
-    t.string   "cname"
-    t.string   "flag"
-    t.string   "callsign"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
